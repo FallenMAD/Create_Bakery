@@ -19,9 +19,10 @@
   &__link {
     text-decoration: none;
     color: $main-black;
-    @include bottomHover(linear-gradient($accent-orange 0 0));
     transition: color 0.3s;
 
+    @include bottomHover(linear-gradient($accent-orange 0 0));
+  
     &:hover {
       color: $accent-orange;
     }

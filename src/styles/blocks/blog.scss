@@ -70,9 +70,9 @@
     --c: #f9512e;
 
     background: linear-gradient(var(--c) 50%,#fff 0) 0%
-      calc(100% - var(--_p,0%))/100% 200%,
+      calc(100% - var(--_p,0%)) /100% 200%,
       linear-gradient(var(--c) 0 0) 0%
-      var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+      var(--_p,0%) / var(--_p,0%) var(--b) no-repeat;
     -webkit-background-clip: text, padding-box;
     background-clip: text, padding-box;
     transition: 0.3s var(--_s,0s) linear,
@@ -81,6 +81,7 @@
     &:hover {
       --_p: 100%;
       --_s: 0.3s;
+
       color: $accent-orange;
     }
   }

@@ -19,6 +19,7 @@
 
     @include onDekstop {
       @include pageGrid;
+
       position: relative;
     }
   }
@@ -26,6 +27,7 @@
   &__wrapper {
     @include onTablet {
       @include pageGrid;
+
       grid-column: 1 / -1;
       position: relative;
       margin-bottom: 80px;
@@ -53,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     @include hover(transform, scale(1.1));
 
     @include onTablet {

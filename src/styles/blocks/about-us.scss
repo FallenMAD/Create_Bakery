@@ -22,11 +22,13 @@
 
     @include onTablet {
       margin-bottom: 72px;
+
       @include pageGrid;
     }
 
     @include onDekstop {
       margin-bottom: 144px;
+
       @include pageGrid;
     }
   }
@@ -83,6 +85,7 @@
 
     @include onTablet {
       @include pageGrid;
+
       gap: 80px;
     }
   }
